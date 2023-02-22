@@ -52,3 +52,6 @@
 * Membuka website https://blynk.io, kemudian login menggunakan email dan password yang sudah terdaftar.
 * Kemudian klik ke menu pencarian, dan klik membuat template baru. Isi data template sesuai dengan kebutuhan.
 * Selanjutnya klik ke menu datastreams, dan buat datastream baru untuk suhu. Untuk datastream suhu menggunakan virtual pin V0.
+* Selanjutnya ulangi langkah ketiga untuk membuat datastream kelembapan. Untuk datastream kelembapan menggunakan virtual pin V1.
+* Setelah itu klik menu mobile datastream, selanjutnya drag dan drop widget box untuk gauge, lalu atur pengaturan suhu dan kelembapan sesuai virtual pin yang sudah dibuat. Maka grafik gauage sudah dapat dilihat melalui smartphone.
+
