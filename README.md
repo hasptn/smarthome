@@ -13,3 +13,9 @@
   >
 </p>
 
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/2.jpg"
+  >
+</p>
+
