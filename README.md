@@ -4,4 +4,4 @@
 
 <p align="justify">Berikut di bawah ini langkah-langkah membuat alat purwarupa rumah pintar berbasis IoT menggunakan google assistant dan ESP8266. Dengan alat ini maka pengguna dapat melakukan kendali lampu, kipas, pintu dan jendela yang terdapat di rumah secara otomatis menggunakan perintah suara dengan bahasa Indonesia atau bahasa Inggris melalui layanan google assistant yang terdapat pada aplikasi google home. Selain itu pengguna juga dapat melakukan monitoring suhu dan kelembapan melalui aplikasi blynk IoT.</p>
 
-![1.jpg]( {https://raw.githubusercontent.com/hasptn/smarthome/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/1.jpg} )
+![gambar](https://raw.githubusercontent.com/hasptn/smarthome/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/1.jpg)
