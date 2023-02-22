@@ -9,17 +9,46 @@
 
 <p align="center">
   <img
-    width="200"
-    height="400"
     src="https://raw.githubusercontent.com/hasptn/smarthome/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/1.jpg"
   >
 </p>
 
 <p align="center">
-  <img
-    width="500"
-    height="600"   
+  <img 
     src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/2.jpg"
   >
 </p>
 
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/3.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/4.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/5.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/6.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/7.jpg"
+  >
+</p>
+
+* Membuka website https://blynk.io, kemudian login menggunakan email dan password yang sudah terdaftar.
+* Kemudian klik ke menu pencarian, dan klik membuat template baru. Isi data template sesuai dengan kebutuhan.
+* Selanjutnya klik ke menu datastreams, dan buat datastream baru untuk suhu. Untuk datastream suhu menggunakan virtual pin V0.
