@@ -1,3 +1,5 @@
-##### PERANCANGAN PURWARUPA RUMAH PINTAR BERBASIS IOT MENGGUNAKAN GOOGLE ASSISTANT DAN ESP8266
+#### PERANCANGAN PURWARUPA RUMAH PINTAR BERBASIS IOT MENGGUNAKAN GOOGLE ASSISTANT DAN ESP8266
 
-Rumah pintar merupakan sebuah konsep tempat tinggal yang menghubungkan jaringan internet dengan peralatan-peralatan rumah tangga yang terhubung dengan listrik sehingga dapat dilakukan pengendalian secara otomatis melalui perangkat smartphone penghuni rumah.
+Rumah pintar merupakan sebuah konsep tempat tinggal yang menghubungkan jaringan internet dengan peralatan-peralatan rumah tangga yang terhubung dengan listrik sehingga dapat dilakukan pengendalian secara otomatis melalui perangkat smartphone penghuni rumah. Melalui teknologi yang bernama internet of things maka perangkat-perangkat rumah seperti: lampu, kipas, pintu, jendela, suhu, dan kelembapan dapat dikontrol dan dimonitoring melalui smartphone.
+
+Berikut di bawah ini langkah-langkah membuat alat purwarupa rumah pintar berbasis IoT menggunakan google assistant dan ESP8266. Dengan alat ini maka pengguna dapat melakukan kendali lampu, kipas, pintu dan jendela yang terdapat di rumah secara otomatis menggunakan perintah suara dengan bahasa Indonesia atau bahasa Inggris melalui layanan google assistant yang terdapat pada aplikasi google home. Selain itu pengguna juga dapat melakukan monitoring suhu dan kelembapan melalui aplikasi blynk IoT.
