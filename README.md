@@ -61,3 +61,58 @@
 
 2. Pembuatan Layanan Google Assistant
 <p align="justify">Untuk melakukan otomasi antara google assistant dan ESP8266 maka memerlukan layanan otomasi IFTTT. IFTTT dapat menjembatani google assistant yang terdapat pada aplikasi google home dengan ESP8266, sehingga komponenkomponen yang terhubung dengan ESP8266 dapat dioperasikan melalui perintah suara pengguna. Berikut di bawah ini adalah langkah-langkah pembuatan layanan tersebut.</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20Google%20Assistant/Screenshot_2023-01-15-19-38-13-539_com.google.android.apps.chromecast.app%20(2).jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20Google%20Assistant/Screenshot_2023-01-15-19-38-25-225_com.google.android.apps.chromecast.app%20(2).jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20Google%20Assistant/Screenshot_2023-01-15-19-38-48-735_com.google.android.googlequicksearchbox%20(2).jpg"
+  >
+</p>
+
+* Langkah pertama buka aplikasi google home, setelah itu klik ikon “tambah” dan buat perangkat baru rumah.
+* Setelah itu klik kembali ikon “tambah” dan klik menambahkan perangkat. Kemudian klik tulisan “works with Google”.
+* Selanjutnya pada kolom pencarian ketik “IFTTT”, setelah itu klik dan hubungkan dengan akun google pengguna.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Pembuatan Layanan IFTTT
+<p align="justify">Layanan google assistant yang sudah dibuat di atas, dapat terhubung dengan IFTTT menggunakan satu akun google sama. Jika google assistant dan IFTTT sudah terhubung maka perintah suara pengguna untuk mengoperasikan komponen-komponen yang terhubung ke ESP8266 dapat dijalankan. Berikut di bawah ini adalah langkah-langkah pembuatan layanan tersebut.</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20IFTTT/1.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20IFTTT/2.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20IFTTT/3.jpg"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20IFTTT/4.jpg"
+  >
+</p>
+
+* Langkah pertama ketik https://ifttt.com, kemudian tekan enter. Setelah itu klik ikon login, lalu login menggunakan akun google yang sama digunakan dalam pembuatan layanan google assistant di atas.
+* Setelah itu tekan tombol create, lalu klik add pada “If This”. Selanjutnya klik kolom activate, kemudian cari “google assistant”. Kemudian ketik kalimat perintah suara yang diinginkan. Salah satu contoh kalimat perintah yang digunakan untuk menyalakan lampu/led pada penelitian ini adalah “nyalakan lampu”. Setelah itu, klik tombol create.
+* Kemudian klik add pada “Then That”. Selanjutnya klik kolom activate, kemudian cari “webhooks”. Kemudian masukan url server aplikasi blynk yang sudah dibuat, token aplikasi blynk, pin dari setiap komponen yang sudah dibuat pada aplikasi blynk sebelumnya, dan kondisi nilai on/off komponen. Berikut contoh url tersebut: https://sgp1.blynk.cloud/external/api/update?token=81bvRgFHgJUnXdKTMZBk4SgOI0-D0whi&D4=1. Setelah itu klik tombol create action dan klik tombol finish, maka layanan google assistant dan ESP8266 sudah terhubung dengan bantuan layanan otomasi IFTTT.
