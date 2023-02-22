@@ -116,3 +116,14 @@
 * Langkah pertama ketik https://ifttt.com, kemudian tekan enter. Setelah itu klik ikon login, lalu login menggunakan akun google yang sama digunakan dalam pembuatan layanan google assistant di atas.
 * Setelah itu tekan tombol create, lalu klik add pada “If This”. Selanjutnya klik kolom activate, kemudian cari “google assistant”. Kemudian ketik kalimat perintah suara yang diinginkan. Salah satu contoh kalimat perintah yang digunakan untuk menyalakan lampu/led pada penelitian ini adalah “nyalakan lampu”. Setelah itu, klik tombol create.
 * Kemudian klik add pada “Then That”. Selanjutnya klik kolom activate, kemudian cari “webhooks”. Kemudian masukan url server aplikasi blynk yang sudah dibuat, token aplikasi blynk, pin dari setiap komponen yang sudah dibuat pada aplikasi blynk sebelumnya, dan kondisi nilai on/off komponen. Berikut contoh url tersebut: https://sgp1.blynk.cloud/external/api/update?token=81bvRgFHgJUnXdKTMZBk4SgOI0-D0whi&D4=1. Setelah itu klik tombol create action dan klik tombol finish, maka layanan google assistant dan ESP8266 sudah terhubung dengan bantuan layanan otomasi IFTTT.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Pembuatan Rangkaian Alat
+
+<p align="center">
+  <img 
+    src="[https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20IFTTT/4.jpg](https://drive.google.com/file/d/1jYFG3ANAmhSM605LqrN-Dr-eTh18XI02/view?usp=sharing)"
+  >
+</p>
+
