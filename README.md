@@ -146,4 +146,5 @@ Sedangkan pin-pin pada relay yang terhubung ke kipas dan power supply adalah seb
 * Pin NO terhubung ke GND power supply.
 * Pin COM terhubung ke GND kipas.
 
-<p align="justify">Langkah terakhir, membuka aplikasi google home dan blynk IoT melalui smartphone untuk mengoperasikan alat dan memonitoring suhu dan kelembapan. Berikut link video demonstrasi alat: https://drive.google.com/file/d/1jYFG3ANAmhSM605LqrN-Dr-eTh18XI02/view?usp=sharing</p>
+Langkah terakhir, membuka aplikasi google home dan blynk IoT melalui smartphone untuk mengoperasikan alat dan memonitoring suhu dan kelembapan. 
+Berikut link video demonstrasi alat: https://drive.google.com/file/d/1jYFG3ANAmhSM605LqrN-Dr-eTh18XI02/view?usp=sharing
