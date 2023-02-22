@@ -9,16 +9,16 @@
 
 <p align="center">
   <img
-    width="150"
-    height="300"
+    width="200"
+    height="400"
     src="https://raw.githubusercontent.com/hasptn/smarthome/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/1.jpg"
   >
 </p>
 
 <p align="center">
   <img
-    width="150"
-    height="300"   
+    width="500"
+    height="600"   
     src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/2.jpg"
   >
 </p>
