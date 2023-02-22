@@ -8,7 +8,9 @@
 <p align="justify">Media perantara antara pengguna dengan alat untuk memonitoring suhu dan kelembapan dibuat menggunakan aplikasi blynk IoT. Hasil dari nilai suhu dan kelembapan ditampilkan dalam grafik gauge. Berikut di bawah ini adalah langkah-langkah pembuatan grafik gauge.</p>
 
 <p align="center">
-  <img 
+  <img
+    width="500"
+    height="500"
     src="https://raw.githubusercontent.com/hasptn/smarthome/main/Dokumentasi/Pembuatan%20Aplikasi%20Blynk%20IoT/1.jpg"
   >
 </p>
