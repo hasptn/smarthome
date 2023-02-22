@@ -1,6 +1,12 @@
 #### PERANCANGAN PURWARUPA RUMAH PINTAR BERBASIS IOT MENGGUNAKAN GOOGLE ASSISTANT DAN ESP8266
 
-<p align="justify">Rumah pintar merupakan sebuah konsep tempat tinggal yang menghubungkan jaringan internet dengan peralatan-peralatan rumah tangga yang terhubung dengan listrik sehingga dapat dilakukan pengendalian secara otomatis melalui perangkat smartphone penghuni rumah. Melalui teknologi yang bernama internet of things maka perangkat-perangkat rumah seperti: lampu, kipas, pintu, jendela, suhu, dan kelembapan dapat dikontrol dan dimonitoring melalui smartphone.</p>
+<p align="justify">Rumah pintar merupakan sebuah konsep tempat tinggal yang menghubungkan jaringan internet dengan peralatan-peralatan rumah tangga yang terhubung dengan listrik sehingga dapat dilakukan pengendalian secara otomatis melalui perangkat smartphone penghuni rumah. Melalui teknologi yang bernama internet of things maka perangkat-perangkat rumah seperti: lampu, kipas, pintu, jendela, suhu, dan kelembapan dapat dikontrol dan dimonitoring melalui smartphone. Gambar di bawah ini merupakan gambaran umum sistem kerja alat secara keseluruhan.</p>
+
+<p align="center">
+  <img
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Gambaran%20Umum%20Sistem/Struktur%20Kerja%20Alat.jpg"
+  >
+</p>
 
 <p align="justify">Berikut di bawah ini langkah-langkah membuat alat purwarupa rumah pintar berbasis IoT menggunakan google assistant dan ESP8266. Dengan alat ini maka pengguna dapat melakukan kendali lampu, kipas, pintu dan jendela yang terdapat di rumah secara otomatis menggunakan perintah suara dengan bahasa Indonesia atau bahasa Inggris melalui layanan google assistant yang terdapat pada aplikasi google home. Selain itu pengguna juga dapat melakukan monitoring suhu dan kelembapan melalui aplikasi blynk IoT.</p>
 
@@ -120,10 +126,24 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. Pembuatan Rangkaian Alat
+<p align="justify">Setelah semua layanan berhasil dibuat, maka langkah selanjutnya adalah membuat rangkaian alat keseluruhan. Berikut gambar di bawah ini merupakan
+rangkaian skematik alat yang dibuat secara keseluruhan.</p>
 
 <p align="center">
   <img 
-    src="[https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Pembuatan%20Layanan%20IFTTT/4.jpg](https://drive.google.com/file/d/1jYFG3ANAmhSM605LqrN-Dr-eTh18XI02/view?usp=sharing)"
+    src="https://github.com/hasptn/smarthome/blob/main/Dokumentasi/Skematik/Skematik%20Keseluruhan.jpg"
   >
 </p>
 
+Adapun koneksi antara pin-pin komponen yang digunakan dengan board mikrokontroler ESP8266 adalah sebagai berikut:
+* Koneksi pin pada sensor DHT11: VCC ke Vin, signal ke D1, GND ke GND. 
+* Koneksi pin pada led : signal ke D2, GND ke GND. 
+* Koneksi pin pada relay: VCC ke Vin, signal pin ke D3, GND ke GND.
+* Koneksi pin pada motor servo untuk pintu: VCC ke Vin, signal ke D4, GND ke GND.
+* Koneksi pin pada motor servo untuk jendela: VCC ke Vin, signal ke D5, GND ke GND.
+
+Sedangkan pin-pin pada relay yang terhubung ke kipas dan power supply adalah sebagai berikut:
+* Pin NO terhubung ke GND power supply.
+* Pin COM terhubung ke GND kipas.
+
+<p align="justify">Langkah terakhir, membuka aplikasi google home dan blynk IoT melalui smartphone untuk mengoperasikan alat dan memonitoring suhu dan kelembapan. Berikut link video demonstrasi alat: https://drive.google.com/file/d/1jYFG3ANAmhSM605LqrN-Dr-eTh18XI02/view?usp=sharing</p>
