@@ -126,7 +126,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. Pembuatan Rangkaian Alat
-<p align="justify">Setelah semua layanan berhasil dibuat, maka langkah selanjutnya adalah membuat rangkaian alat keseluruhan. Berikut gambar di bawah ini merupakan
+<p align="justify">Setelah semua layanan berhasil dibuat, maka langkah selanjutnya adalah membuat rangkaian alat secara keseluruhan. Berikut gambar di bawah ini merupakan
 rangkaian skematik alat yang dibuat secara keseluruhan.</p>
 
 <p align="center">
